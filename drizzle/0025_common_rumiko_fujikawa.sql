@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_produtos` ADD `cor` varchar(100) DEFAULT '';

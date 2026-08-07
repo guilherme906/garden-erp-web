@@ -1,0 +1,2 @@
+ALTER TABLE `catalogos_pedidos` MODIFY COLUMN `status` enum('NOVO','VISTO','APROVADO','CANCELADO','RECUSADO') NOT NULL DEFAULT 'NOVO';--> statement-breakpoint
+ALTER TABLE `catalogos_pedidos` ADD `motivoRecusa` text;

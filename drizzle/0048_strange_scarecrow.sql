@@ -1,0 +1,1 @@
+ALTER TABLE `pedido_compra_itens` ADD `vendaOrigemId` int;

@@ -1,0 +1,1 @@
+ALTER TABLE `pedidos_compra` ADD `orcamentosOrigemIds` text;

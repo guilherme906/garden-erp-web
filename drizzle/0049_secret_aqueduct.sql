@@ -1,0 +1,1 @@
+ALTER TABLE `anotacoes` ADD `ativa` tinyint DEFAULT 1 NOT NULL;

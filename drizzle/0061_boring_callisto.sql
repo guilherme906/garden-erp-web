@@ -1,0 +1,1 @@
+ALTER TABLE `produtos_lista` ADD `produtoLojaId` int;

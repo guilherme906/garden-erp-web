@@ -1,0 +1,2 @@
+ALTER TABLE `produtos_customizados` ADD `categoriaId` int;--> statement-breakpoint
+ALTER TABLE `produtos_customizados` ADD CONSTRAINT `produtos_customizados_categoriaId_categorias_customizadas_id_fk` FOREIGN KEY (`categoriaId`) REFERENCES `categorias_customizadas`(`id`) ON DELETE set null ON UPDATE no action;

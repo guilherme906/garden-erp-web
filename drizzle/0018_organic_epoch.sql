@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_conversao` ADD `fotoUrl` text;

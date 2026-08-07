@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_produtos` ADD `imagemUrlCache` text;

@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_config` ADD `dataCarregamento` varchar(10) DEFAULT '' NOT NULL;

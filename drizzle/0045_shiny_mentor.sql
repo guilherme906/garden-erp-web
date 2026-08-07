@@ -1,0 +1,1 @@
+ALTER TABLE `vendas` ADD `frete` decimal(10,2) DEFAULT '0.00' NOT NULL;

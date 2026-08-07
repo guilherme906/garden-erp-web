@@ -1,0 +1,1 @@
+ALTER TABLE `vendas` ADD `origem` varchar(50) DEFAULT 'MANUAL';

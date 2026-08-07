@@ -1,0 +1,1 @@
+ALTER TABLE `cooperflora_produtos` ADD `hastes` int DEFAULT 1 NOT NULL;

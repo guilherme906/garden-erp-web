@@ -1,0 +1,1 @@
+ALTER TABLE `produtos` ADD `ativo` int DEFAULT 1 NOT NULL;

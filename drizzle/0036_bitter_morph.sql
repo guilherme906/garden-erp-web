@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_produtos` ADD `statusProduto` varchar(50) DEFAULT '';

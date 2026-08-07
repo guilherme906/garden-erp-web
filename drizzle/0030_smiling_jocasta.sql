@@ -1,0 +1,1 @@
+ALTER TABLE `catalogos_pedidos` ADD `vendaId` int;

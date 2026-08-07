@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_config` ADD `customerIdPedidos` varchar(20) DEFAULT '5191' NOT NULL;

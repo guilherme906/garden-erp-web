@@ -1,0 +1,1 @@
+ALTER TABLE `veiling_conversao` ADD `icms` decimal(5,4);

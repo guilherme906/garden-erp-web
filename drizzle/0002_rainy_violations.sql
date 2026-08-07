@@ -1,0 +1,1 @@
+ALTER TABLE `compras` ADD `numNF` varchar(100);

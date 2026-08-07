@@ -1,0 +1,22 @@
+CREATE TABLE `compras_importadas` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`produto` varchar(255) NOT NULL,
+	`quantidade` decimal(12,4) NOT NULL DEFAULT '0',
+	`valorCusto` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`pacote` decimal(12,4) NOT NULL DEFAULT '0',
+	`valorTotal` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`freteUm` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`freteTotal` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`icms` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`embalagem` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`custoTotal` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`totalCompra` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`valorVarejo` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`valorCdUm` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`valorCdAta` decimal(12,2) NOT NULL DEFAULT '0.00',
+	`nomeArquivo` varchar(255) NOT NULL,
+	`dataImportacao` timestamp NOT NULL DEFAULT (now()),
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `compras_importadas_id` PRIMARY KEY(`id`)
+);

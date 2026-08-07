@@ -1,0 +1,1 @@
+ALTER TABLE `compra_itens` ADD `isDuplicado` tinyint DEFAULT 0;

@@ -1,0 +1,37 @@
+# ===== VARIÁVEIS PARA RAILWAY =====
+# Copie e cole estas variáveis no painel do Railway
+
+# DATABASE (Railway criará automaticamente se usar MySQL do Railway)
+DATABASE_URL=mysql://usuario:senha@host:3306/garden_erp
+
+# SERVER
+NODE_ENV=production
+PORT=3000
+JWT_SECRET=sua_chave_secreta_super_segura_aqui
+
+# OAUTH (Manus)
+VITE_APP_ID=seu_app_id
+OAUTH_SERVER_URL=https://api.manus.im
+VITE_OAUTH_PORTAL_URL=https://portal.manus.im
+OWNER_OPEN_ID=seu_owner_id
+OWNER_NAME=seu_nome
+
+# AWS S3 (Storage)
+AWS_ACCESS_KEY_ID=sua_chave_acesso
+AWS_SECRET_ACCESS_KEY=sua_chave_secreta
+AWS_REGION=us-east-1
+AWS_S3_BUCKET=seu_bucket_name
+
+# MANUS BUILT-IN APIs
+BUILT_IN_FORGE_API_URL=https://api.manus.im
+BUILT_IN_FORGE_API_KEY=sua_chave_api_servidor
+VITE_FRONTEND_FORGE_API_URL=https://api.manus.im
+VITE_FRONTEND_FORGE_API_KEY=sua_chave_api_frontend
+
+# VEILING (Opcional)
+VEILING_USUARIO=seu_usuario
+VEILING_SENHA=sua_senha
+
+# COOPERFLORA (Opcional)
+COOPERFLORA_USUARIO=seu_usuario
+COOPERFLORA_SENHA=sua_senha

@@ -1,0 +1,1 @@
+ALTER TABLE `compra_itens` ADD `transacaoGfp` varchar(50);
