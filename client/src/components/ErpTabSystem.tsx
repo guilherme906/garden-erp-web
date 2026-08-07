@@ -158,25 +158,9 @@ const MENU_GROUPS: MenuGroup[] = [
 ];
 
 export default function ErpTabSystem() {
-  const { loading, user } = useAuth();
   const { erpUser } = useErpAuth();
 
-  if (loading) return <DashboardLayoutSkeleton />;
-
-  if (!user) {
-    return (
-      <div className="flex items-center justify-center min-h-screen bg-background">
-        <div className="flex flex-col items-center gap-8 p-6 sm:p-8 max-w-md w-full">
-          <div className="flex flex-col items-center gap-4">
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663539257200/nE9aRDyk9G49cwSdfYmqny/LOGOPRINCIPAL-POSITIVA-HORIZONTAL_21b11a41.webp" alt="Garden Center Primavera" className="h-20 object-contain" />
-            <p className="text-sm text-muted-foreground text-center">Faça login para acessar o sistema.</p>
-          </div>
-          <Button onClick={() => { window.location.href = getLoginUrl(); }} size="lg" className="w-full text-base py-3">Entrar</Button>
-        </div>
-      </div>
-    );
-  }
-
+  // Se não houver usuário ERP logado, mostrar página de login
   if (!erpUser) return <ErpLogin />;
 
   return <TabWorkspace />;
